@@ -1,0 +1,14 @@
+Campo;Descrição;Tipo de Dado;Tamanho
+Órgão;Secretaria ou ente responsável pela realização da despesa;varchar;10
+Número do Processo;Numeração sequencial do procedimento licitatório.;int;4
+Modalidade;Forma de Contratação;varchar;50
+Número do Contrato;Número sequencial de todo e qualquer ajuste entre órgãos ou entidades da Administração Pública e particulares, em que haja um acordo de vontades para a formação de vínculo e a estipulação de obrigações recíprocas, seja qual for a denominação utilizada. ;int;4
+Número Empenho;Número sequencial de documento utilizado para registrar as despesas orçamentárias de atos emanados pela autoridade competente.;int;4
+Contratado/Fornecedor;Pessoa física ou jurídica signatária de instrumento contratual com a Administração Pública, na condição de fornecedor de bens, executor de obra ou prestador de serviço. ;varchar;70
+CNPJ/CPF;Número sequencial do fornecedor/contratado, registrado junto à Receita Federal do Brasil.;varchar;18
+Valor Empenhado;Consiste na reserva de dotação orçamentária para um fim específico. ;decimal;9
+Valor Liquidado;Valor verificado do direito adquirido pelo contratado.;decimal;17
+Valor Anulado;São despesas empenhadas de exercícios financeiros ou do atual, que não serão mais pagas ao contratado. ;decimal;17
+Valor Pago;Valor efetivamente recebido pelo contratado. ;decimal;17
+Valor a pagar;São as despesas empenhadas, mas não pagas dentro do exercício financeiro.;decimal;17
+Fonte de Recursos;As fontes de recursos constituem-se de determinados agrupamentos de naturezas de receitas, atendendo a uma determinada regra de destinação legal, indicando como são financiadas as despesas orçamentárias.;varchar;100
